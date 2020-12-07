@@ -8,6 +8,7 @@ class Posts extends Component {
         let find =postsF.find(value => value.id ===id)
         this.setState({choosen:find})
     }
+
     render() {
         let {posts , choosen}=this.state
 
